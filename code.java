@@ -38,6 +38,7 @@ public class Main
                                 if(curr=='}'&& st.peek()=='{'){
                                      st.pop();
                                         continue;}
+				return false;
                         }
                 }
                 //if for loops end then brackets are balanced
